@@ -69,9 +69,9 @@ public class CRUD_Test {
 
 	public void read_data(){
 		int sl_no;
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the id to read:");
-		sl_no=sc.nextInt();
+		//Scanner sc=new Scanner(System.in);
+		//System.out.println("Enter the id to read:");
+		//sl_no=sc.nextInt();
 		DB_Connection obj_DB_Connection=new DB_Connection();
 		Connection connection=obj_DB_Connection.get_connection();
 		PreparedStatement ps=null;
